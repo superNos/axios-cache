@@ -3,13 +3,15 @@
 ##使用方法
 将index.js和cache.js引入项目
 （1）
-<code>import axios from 'axios'
+<code>
+  import axios from 'axios'
 import wrapper from 'axios-cache-plugin'
 
 let http = wrapper(axios, {
   maxCacheSize: 15
 })
-export default http</code>
+export default http
+</code>
 （2）
 `import axios from 'axios'
 import wrapper from 'axios-cache-plugin'
